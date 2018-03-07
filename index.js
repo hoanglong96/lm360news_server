@@ -9,7 +9,7 @@ var cheerio = require('cheerio');
 var Home = require('./model/home')
 var VCS = require('./model/vcs')
 
-var app = express();
+var app = express();  
 //Connet moogodb
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://hlong96:Hoanglong96@ds251588.mlab.com:51588/lm360news'
@@ -201,7 +201,7 @@ request(urlLM360, function (err, response, body) {
        tinGame.push(tinGameObj)
     }
 
-    console.log(tinGame)
+    //console.log(tinGame)
 
     //HOME
     var home = new Home({
