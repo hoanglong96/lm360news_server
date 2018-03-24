@@ -20,7 +20,8 @@
     "moment": "^2.18.1",
     "mongodb": "^3.0.4",
     "mongoose": "^4.11.3",
-    "morgan": "^1.8.2"
+    "morgan": "^1.8.2",
+    "youtube-mp3": "^0.1.2"
   },
   "repository": {
     "type": "git",
