@@ -11,3 +11,6 @@ app.use(bodyParser.json());
     console.log("App now running on port", port);
   });
 
+  app.get('/tinnoibat',function(req,res){
+    res.send("Success")
+  })
