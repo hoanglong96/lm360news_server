@@ -12,5 +12,6 @@ app.use(bodyParser.json());
   });
 
   app.get('/tinnoibat',function(req,res){
-    res.send("Success")
+    res.send(JSON.stringify({ code: "200",
+                message:"success"}));
   })
